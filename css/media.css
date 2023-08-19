@@ -12,6 +12,46 @@
         margin-bottom: 10px;
         padding: 0 10px !important;
     }
+
+    /* banner start */
+
+    .banner {
+        padding-bottom: 60px;
+    }
+
+    .b_text {
+        text-align: center;
+    }
+
+    .b_h1 {
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .b_p2 {
+        padding: 0;
+        line-height: 30px;
+    }
+
+    .btn_link {
+        margin: 15px auto 0;
+    }
+
+    .b_img {
+        margin-bottom: 20px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .b_img img {
+        width: 250px;
+    }
+
+    /* banner end */
 }
 
 /*  Small devices (landscape phones, 576px and up) */
@@ -28,6 +68,38 @@
         margin-bottom: 15px;
         padding: 0 10px !important;
     }
+
+    /* banner start */
+
+    .b_text {
+        text-align: center;
+    }
+
+    .b_h1 {
+        padding: 0 40px 0;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .b_p2 {
+        padding: 0 30px 0;
+        line-height: 30px;
+    }
+
+    .btn_link {
+        margin: 15px auto 0;
+    }
+
+    .b_img {
+        margin-bottom: 30px;
+        padding: 0 50px;
+    }
+
+    .b_img img {
+        width: 400px;
+    }
+
+    /* banner end */
 }
 
 /*  Medium devices (tablets, 768px and up) */
@@ -40,13 +112,55 @@
         margin-bottom: 10px;
         padding: 0 15px !important;
     }
+
+    /* banner start*/
+
+    .b_text {
+        text-align: center;
+    }
+
+    .b_h1 {
+        padding: 0 90px 0;
+    }
+
+    .b_p2 {
+        padding: 0 80px 0;
+    }
+
+    .btn_link {
+        margin: 15px auto 0;
+    }
+
+    .b_img {
+        margin-bottom: 30px;
+        padding: 0 70px;
+    }
+
+    /* banner end */
 }
 
 /*  Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner */
+
+    .b_img img {
+        width: 450px;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {}
 
 /*  Extra extra large devices ( extra large desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+
+    /* banner */
+    .b_h1 {
+        padding-right: 100px;
+    }
+
+    .b_p2 {
+        padding-right: 90px;
+        line-height: 36px;
+    }
+}
