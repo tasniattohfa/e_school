@@ -217,6 +217,10 @@ header {
 
 .c_right ul li img {}
 
+
+
+
+
 /* course end */
 
 /* testimonial start */
@@ -237,3 +241,56 @@ header {
 .t_p{}
 
 /* testimonial end */
+
+/* footer start */
+/* footer top start*/
+
+.footer_top{
+    padding: 55px 0;
+    background-color: #282531;
+    text-align: center;
+}
+.ft_details{
+    padding-right: 120px;
+    
+}
+.ft_details p{
+    color: white;
+    line-height: 30px;
+}
+.ft_links{
+
+}
+.ft_links h2{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color:white;
+    line-height: 30px;
+}
+.ft_links ul li a{
+    margin-bottom: 8px;
+    display: block;
+    color:white;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+/* footer top end */
+
+/* main footer start*/
+footer{
+    padding: 20px 0;
+    background-color: #282531;
+    text-align: center;
+}
+footer p{
+    color: #CDCDCD;
+}
+footer p a{
+    color: #CDCDCD;
+    text-decoration: none;
+    
+}
+/* main footer end */
+/* footer end */
