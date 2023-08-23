@@ -114,6 +114,22 @@
     }
 
     /* testimony end */
+    
+    /* footer top start */
+    .footer_top {
+        padding: 55px 0 30px;
+    }
+
+    .ft_details {
+        margin-bottom: 40px;
+        padding-right: 0;
+    }
+
+    .ft_links:last-child {
+        margin-bottom: 35px;
+    }
+
+    /* footer top end*/
 }
 
 /*  Small devices (landscape phones, 576px and up) */
@@ -199,6 +215,13 @@
     }
 
     /* testimony end */
+    /* footer top start */
+    .ft_details {
+        margin-bottom: 35px;
+        padding: 0 50px;
+    }
+
+    /* footer top end*/
 }
 
 /*  Medium devices (tablets, 768px and up) */
@@ -264,6 +287,14 @@
 
     /* testimony end */
 
+    /* footer top start */
+    .ft_details {
+        margin-bottom: 40px;
+        padding: 0 70px;
+    }
+
+    /* footer top end */
+
 }
 
 /*  Large devices (desktops, 992px and up) */
@@ -314,4 +345,10 @@
     }
 
     /* feature end */
+    /* footer top start */
+    .ft_details {
+        padding-right: 130px;
+    }
+
+    /* footer top end */
 }
